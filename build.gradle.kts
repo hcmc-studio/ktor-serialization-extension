@@ -6,6 +6,7 @@ val ktor_version: String by project
 
 plugins {
     kotlin("jvm")
+    kotlin("plugin.serialization")
     id("maven-publish")
 }
 
